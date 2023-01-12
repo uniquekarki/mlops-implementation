@@ -27,7 +27,7 @@ The commandline output should look like this:
 ```
 
 ## Running this Project
-### Individual RandomForest example
+### To train
 
 ```{bash}
 chmod +x train.sh
@@ -36,11 +36,23 @@ chmod +x train.sh
 ```{bash}
 ./train.sh
 ```
+### To test
+### In Browser
+
+Go to link: <http://127.0.0.1:5000> > DemoBoston > select the latest model
+
+In "Make Predictions" title copy "logged_model" and paste the link in test.py
 
 ```{python}
 python test.py
 ```
+The output should look like this:
 
-### In Browser
+```plain
+----------------TEST RESULTS----------------
 
-Go to link: <http://127.0.0.1:5000>
+Actual Value: 24.00
+Predicted Value: 27.56952769408406
+
+--------------------------------------------
+```
