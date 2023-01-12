@@ -37,6 +37,10 @@ chmod +x train.sh
 ./train.sh
 ```
 
+```{python}
+python test.py
+```
+
 ### In Browser
 
 Go to link: <http://127.0.0.1:5000>
