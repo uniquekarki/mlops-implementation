@@ -1,0 +1,15 @@
+artifact_uri: file:///home/unique/Documents/Personal/MLOps/mlflow-experiment-example/mlruns/245961357303153557/a46bddaef30649bcbecd9129762629a7/artifacts
+end_time: 1673234278330
+entry_point_name: ''
+experiment_id: '245961357303153557'
+lifecycle_stage: active
+run_id: a46bddaef30649bcbecd9129762629a7
+run_name: mysterious-moth-398
+run_uuid: a46bddaef30649bcbecd9129762629a7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1673234275480
+status: 3
+tags: []
+user_id: unique

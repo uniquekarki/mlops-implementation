@@ -1,0 +1,12 @@
+creation_timestamp: 1673233583673
+current_stage: None
+description: ''
+last_updated_timestamp: 1673233583673
+name: BostonPredict-RF
+run_id: fc9ebabbd3064e7f8058d1c61cd2acfd
+run_link: ''
+source: file:///home/unique/Documents/Personal/MLOps/mlflow-experiment-example/mlruns/245961357303153557/fc9ebabbd3064e7f8058d1c61cd2acfd/artifacts/model-artifact
+status: READY
+status_message: null
+user_id: null
+version: 4

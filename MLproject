@@ -1,0 +1,17 @@
+name: BostonDemo-project
+
+python_env: python_env.yaml
+
+entry_points:
+  # train SKlearn (RF) model
+  train:
+    parameters:
+      data_url: {type: string, default: "http://lib.stat.cmu.edu/datasets/boston"}
+      seed: {type: int, default: 42}
+    command: "python train.py {data_url} --seed {seed}"
+
+  optimize:
+    parameters:
+      data_url: {type: string, default: "http://lib.stat.cmu.edu/datasets/boston"}
+      seed: {type: int, default: 42}
+    command: "python cv_search.py {data_url} --seed {seed}"

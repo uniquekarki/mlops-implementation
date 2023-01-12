@@ -1,0 +1,1 @@
+mlflow run -e train --env-manager=local --experiment-name=DemoBoston ./
